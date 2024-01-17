@@ -5,6 +5,10 @@ pipeline {
             label 'test-node-a800'
         }
     }
+    environment {
+        HTTP_PROXY = 'http://proxy-dmz.intel.com:911'
+        HTTPS_PROXY = 'http://proxy-dmz.intel.com:912'
+    }
     stages {
         stage('Build') {
             steps {
