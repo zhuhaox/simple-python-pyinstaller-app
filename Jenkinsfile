@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'test-node-a800'
+        label 'test-agent-SPR01-Gaudi2'
     }
 
     stages {
