@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'test-agent-a10'
+        label 'test-node-a800'
     }
 
     stages {
